@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The main theme for your app AFTER the splash screen. -->
+    <style name="Theme.AuricMusic" parent="android:Theme.Material.NoActionBar" />
+
+    <!-- The theme for the system splash screen itself. -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background to our custom color -->
+        <item name="windowSplashScreenBackground">@color/raisin_black</item>
+
+        <!-- Set the icon to be your app logo. -->
+        <!-- Make sure you have a file named 'logo_icon_transparent.png' in res/drawable -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_icon_transparent</item>
+
+        <!-- Tell the system which theme to use after the splash screen is finished. -->
+        <item name="postSplashScreenTheme">@style/Theme.AuricMusic</item>
+    </style>
+</resources>
