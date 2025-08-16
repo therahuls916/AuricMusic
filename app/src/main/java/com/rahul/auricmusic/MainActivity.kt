@@ -27,10 +27,10 @@ class MainActivity : ComponentActivity() {
         MediaControllerManager.connect(this)
 
         var keepSystemSplashOn by mutableStateOf(true)
-        installSplashScreen().setKeepOnScreenCondition { keepSystemSplashOn }
+        // installSplashScreen().setKeepOnScreenCondition { keepSystemSplashOn }
 
         enableEdgeToEdge()
-
+        installSplashScreen()
         setContent {
             AuricMusicTheme {
                 val navController = rememberNavController()

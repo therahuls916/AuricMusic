@@ -10,7 +10,7 @@
 
         <!-- Set the icon to be your app logo. -->
         <!-- Make sure you have a file named 'logo_icon_transparent.png' in res/drawable -->
-        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_icon_transparent</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/auric_music_logo</item>
 
         <!-- Tell the system which theme to use after the splash screen is finished. -->
         <item name="postSplashScreenTheme">@style/Theme.AuricMusic</item>

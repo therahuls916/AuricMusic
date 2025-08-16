@@ -145,7 +145,7 @@ fun PlaylistCard(
                 playlistWithSongs.songs.first().albumArtUri
             } else {
                 // Otherwise, use the placeholder icon.
-                R.drawable.logo_icon_transparent
+                R.drawable.logo_icon_transparent1
             }
 
             Image(
@@ -154,7 +154,7 @@ fun PlaylistCard(
                 painter = rememberAsyncImagePainter(
                     model = imageModel,
                     // Show the placeholder if the song's album art can't be loaded.
-                    error = painterResource(id = R.drawable.logo_icon_transparent)
+                    error = painterResource(id = R.drawable.logo_icon_transparent1)
                 ),
 
                 contentDescription = playlistWithSongs.playlist.name,

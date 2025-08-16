@@ -14,6 +14,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -41,7 +42,8 @@ fun SplashScreen(onAnimationEnd: () -> Unit) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(MaterialTheme.colorScheme.background)
+            .background(color = Color.Black)
+           // .background(MaterialTheme.colorScheme.background)
             .padding(horizontal = 40.dp, vertical = 64.dp)
     ) {
         Column(
@@ -58,7 +60,7 @@ fun SplashScreen(onAnimationEnd: () -> Unit) {
                 contentAlignment = Alignment.Center
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.logo_icon_transparent),
+                    painter = painterResource(id = R.drawable.auric_music_logo),
                     contentDescription = "App Logo",
                     modifier = Modifier.size(450.dp)
                 )

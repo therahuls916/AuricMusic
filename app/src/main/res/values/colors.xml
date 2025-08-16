@@ -8,6 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+   <!--
     <color name="raisin_black">#212121</color>
+    -->
+    <color name="raisin_black">#050505</color>
 
 </resources>
